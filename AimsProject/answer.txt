@@ -1,0 +1,9 @@
+Câu 1: Khi nào nên sử dụng các phương thức accessor?
+       Nó nên được sử dụng bất cứ khi nào chúng ta cần truy cập hoặc sửa đổi trạng thái riêng tư của một đối tượng một cách có kiểm soát. Một trong những lợi ích chính của việc sử dụng các phương thức truy cập là chúng cung cấp cơ chế đóng gói cho trạng thái bên trong của đối tượng, ngăn chặn việc truy cập trực tiếp vào các trường của đối tượng từ bên ngoài đối tượng đó. Cái này đóng gói bảo vệ trạng thái bên trong của đối tượng, giúp duy trì dễ dàng hơn theo thời gian bằng cách ngăn chặn những thay đổi ngoài ý muốn.
+
+       Các phương thức truy cập cũng hữu ích cho việc xác thực và chuẩn hóa đầu vào trước khi nó được gán cho trường của đối tượng. Ví dụ: phương thức setter cho trường tuổi của một người có thể đảm bảo rằng giá trị tuổi nằm trong phạm vi hợp lệ, chẳng hạn như từ 0 đến 120 tuổi.
+
+       Nhìn chung, việc sử dụng các phương thức truy cập giúp đảm bảo rằng trạng thái bên trong của một đối tượng được truy cập và sửa đổi một cách kiểm soát và dễ bảo trì.
+
+Câu 2: Nếu bạn tạo một phương thức xây dựng để xây dựng DVD theo tiêu đề thì hãy tạo một phương thức xây dựng để xây dựng một DVD theo thể loại. JAVA có cho phép bạn làm điều này không?
+       Nó không cho phép chúng tôi làm điều này. Java sẽ hiển thị lỗi:" 'DigitalVideoDc(String)' đã được xác định trong 'DigitalVideoDc' ". Có nghĩa là phương thức này bị trùng lặp.
